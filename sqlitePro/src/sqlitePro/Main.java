@@ -48,9 +48,9 @@ public class Main {
 			String sql4 = "delete from g_artists where id=4";
 			int cnt4 = stat4.executeUpdate(sql4);
 			if(cnt4>0)
-				System.out.println("데이터가 수정되었습니다!");
+				System.out.println("데이터가 삭제되었습니다!");
 			else
-				System.out.println("[Error] 데이터 수정 오류!");
+				System.out.println("[Error] 데이터 삭제 오류!");
 			stat4.close();
 			
 		} catch(Exception e) {
